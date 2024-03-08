@@ -1,0 +1,52 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+  border-radius: 40%;
+  border: 5px solid rgba(199, 11, 55, 0.4);
+  padding: 20px 15px 10px 5px;
+  background-color: lime;
+}
+
+a {
+  font-size: 1.5em;
+}
+
+ul,
+ol {
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  background-color: cyan;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item4 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.item1 {
+  background-color: yellow;
+}
+.item4 {
+  background-color: orange;
+}
